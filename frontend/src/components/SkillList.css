@@ -1,0 +1,163 @@
+.skilllist-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f1f1f1;
+  }
+  
+  .skilllist-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #ff4081;
+    text-shadow: 1px 1px 0 #000;
+  }
+  
+  .skilllist-subheading {
+    font-size: 1.5rem;
+    color: #00e5ff;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .btn-add {
+    padding: 0.6rem 1.2rem;
+    background-color: #0a0004;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #ff5c94;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-add:hover {
+    background-color: #ff5c94;
+    color:white;
+  }
+  
+  .skilllist-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+  }
+  
+  .search-input,
+  .sort-select {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  .search-input{
+    width: 1500px;
+    background-color: #1f1f1f;
+    color: #00e5ff;
+  }
+  .sort-select{
+    background-color: #4d5253;
+    color: #00e5ff;
+  }
+  .sort-select:hover{
+    box-shadow: 0 8px 20px #00e5ff;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  
+  .skilllist-columns {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .skilllist-column {
+    flex: 1;
+    background-color: #2d2d2d;
+    padding: 1rem;
+    border-radius: 12px;
+    border: 2px solid #ff4081;
+    min-width: 300px;
+  }
+  
+  .skill-card {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ff4081;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255, 64, 129, 0.6);
+  }
+  
+  .skill-actions {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .skill-link {
+    color: #00e5ff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .error-text {
+    color: red;
+  }
+  
+  /* Buttons */
+  .btn {
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #38c172;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  .btn-warning:hover {
+    background-color: #ffd658;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    background-color: #e4606d;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+  }
+  
+  .btn-info:hover {
+    background-color: #3dc7dd;
+  }
+  

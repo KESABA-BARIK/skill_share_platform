@@ -1,0 +1,94 @@
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #2d2d2d;
+    border: 2px solid #ff4081;
+    border-radius: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f1f1f1;
+  }
+  
+  .card {
+    background-color: #1f1f1f;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid #ff4081;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 12px rgba(255, 64, 129, 0.4);
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #ff4081;
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 0 #000;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    margin-bottom: 1rem;
+  }
+  
+  .review-section {
+    padding-top: 1rem;
+  }
+  
+  .review-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .review-item {
+    background-color: #292929;
+    padding: 0.8rem;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    border: 1px solid #00e5ff;
+  }
+  
+  .review-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  
+  .textarea {
+    resize: vertical;
+    min-height: 100px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #1f1f1f;
+    color: #fff;
+  }
+  
+  .button {
+    align-self: flex-start;
+    padding: 0.6rem 1.2rem;
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 229, 255, 0.4);
+  }
+  

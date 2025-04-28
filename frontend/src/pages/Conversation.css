@@ -1,0 +1,89 @@
+.conversation-container {
+    padding: 1rem;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .conversation-title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .messages-box {
+    border: 1px solid #444;
+    padding: 1rem;
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+  }
+  
+  .message-wrapper {
+    margin-bottom: 0.5rem;
+  }
+  
+  .message-wrapper.right {
+    text-align: right;
+  }
+  
+  .message-bubble {
+    display: inline-block;
+    background-color: #2c2c2c;
+    padding: 0.5rem 0.75rem;
+    border-radius: 10px;
+    max-width: 80%;
+    color: #f0f0f0;
+    box-shadow: 0 0 6px rgba(0, 229, 255, 0.15);
+  }
+  
+  .message-bubble.you {
+    background-color: #3b3b3b;
+  }
+  
+  .message-author {
+    font-weight: bold;
+    margin: 0;
+    color: #00e5ff;
+  }
+  
+  .message-content {
+    margin: 0.25rem 0;
+  }
+  
+  .message-time {
+    font-size: 0.75rem;
+    color: #999;
+  }
+  
+  .message-input-container {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .message-input {
+    width: 75%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #2c2c2c;
+    color: #fff;
+    outline: none;
+  }
+  
+  .message-send-button {
+    padding: 0.5rem 1rem;
+    background-color: #00e5ff;
+    color: #121212;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .message-send-button:hover {
+    background-color: #00bcd4;
+  }
+  
